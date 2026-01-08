@@ -1,0 +1,95 @@
+.modal-header
+{
+    background-color: blue;
+}
+.modal-body form
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.modal-body form .imgholder
+{
+    height: 200px;
+    width: 200px;
+}
+.modal-body form .inputfield
+{
+    flex-basis: 65%;
+    border-left: 3px solid blue;
+    margin-left: 20px;
+    padding-left: 20px;
+    
+}
+.modal-body form .imgholder
+{
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.modal-body .card
+{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+.imgholder .upload input
+{
+width: 0;
+}
+.imgholder .upload
+{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.imgholder:hover .upload
+{
+display: flex;
+}
+.upload i
+{
+    columns: fff;
+    font-size: 35px;
+    color: antiquewhite;
+}
+#userapn .inputfield > div input
+{
+    width: 75%;
+    padding: 10px;
+    outline: 0;
+    border: none;
+    background: transparent ;
+    border-bottom:2px solid brown;
+}
+.inputfield > div label
+{
+    font-size: 15px;
+    font-weight: 500;
+}
+.inputfield > div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+#userapn form .inputfield > div label::after
+{
+    content: "*";
+    font-size: 1em;
+    color: red;
+}
+#readapn form .inputfield >div input{
+    color: #000;
+    font-size: 18P;
+}
